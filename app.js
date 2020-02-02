@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Welcome to CSC Education 2020. Let\'s go use the Continuous Delivery Service');
+  res.send('Welcome to CSC Education 2020 on 0202. Let\'s go use the Continuous Delivery Service');
 });
 
 app.listen(PORT);
